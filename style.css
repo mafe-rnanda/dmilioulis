@@ -1,0 +1,94 @@
+body {
+    background-color: #0E181B;
+    color:#fff;
+    margin: 20%;
+}
+
+h1 {
+    color:#DCF763;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    padding: 10px;
+}
+
+/* li:hover {
+    color:#fff;
+    background-color: #E0A458;
+    border-radius: 25px;
+    padding: 10px;
+} */
+
+a {
+    text-decoration: none;
+    color:#DCF763;
+}
+
+a:hover {
+  color:#E0A458;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me:hover, .experience:hover {
+  font-size: 2em;
+}
+
+
+/* When hovering over one of main sections */
+.change-about {
+  background-color: #CFE0C3;
+}
+
+.change-experience {
+  background-color: #88ADA8;
+}
+
+
+
+/* Arrow */
+
+button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    outline:0;
+  }
+  
+  svg {
+    padding: 5px;
+    width: 20%;
+    height: auto;
+  }
+  
+  .arrow {
+    cursor: pointer;
+  }
+  
+.right:hover polyline,
+.right:focus polyline {
+  stroke-width: 3;
+}
+
+.right:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+polyline {
+  transition: all 250ms ease-in-out;
+}
